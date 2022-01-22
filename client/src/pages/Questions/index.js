@@ -12,8 +12,6 @@ function Questions() {
     return <Loading />;
   }
 
-  console.log("data", data);
-
   return (
     <div>
       {data.questions.map((question) => (

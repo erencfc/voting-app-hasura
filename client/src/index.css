@@ -35,3 +35,17 @@ button {
   padding: 8px;
   margin-top: 10px;
 }
+
+label {
+  display: block;
+}
+
+progress {
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.vote_count {
+  font-size: 16px;
+  margin-left: 4px;
+}

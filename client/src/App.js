@@ -2,6 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 
 import Questions from "./pages/Questions";
 import New from "./pages/New";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Questions />} />
         <Route path="new" element={<New />} />
+        <Route path="q/:id" element={<Detail />} />
       </Routes>
     </div>
   );
